@@ -104,8 +104,8 @@ May the force be with me or something like that x)
   <a href="mailto:phil.ghanem@gmail.com">
     <img src="https://img.shields.io/badge/phil.ghanem%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email" /></a>
   </a>
-  <a href="https://x.com/Mcpeace200">
-    <img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=FF003C" />
+  <a href="https://x.com/McPeace200">
+    <img src="https://img.shields.io/badge/Mcpeace200-0D1117?style=for-the-badge&logo=x&logoColor=FF003C" alt="Mcpeace200" /></a>
   </a>
   <img src="https://img.shields.io/badge/Discord-mcpeace__-0D1117?style=for-the-badge&logo=discord&logoColor=FCEE0A" />
 </p>
