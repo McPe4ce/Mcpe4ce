@@ -98,7 +98,7 @@ May the force be with me or something like that x)
     <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FCEE0A" />
   </a>
   <a href="mailto:phil.ghanem@gmail.com">
-    <imgsrc="https://img.shields.io/badge/phil.ghanem%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email" /></a>
+    <img src="https://img.shields.io/badge/phil.ghanem%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email" /></a>
   </a>
   <a href="https://x.com/Mcpeace200">
     <img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=FF003C" />
