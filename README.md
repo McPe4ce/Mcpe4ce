@@ -39,6 +39,7 @@ May the force be with me or something like that x)
   <img src="https://img.shields.io/badge/Python_(Soon)-0D1117?style=for-the-badge&logo=python&logoColor=00E5FF" />
   <img src="https://img.shields.io/badge/HTML_(Soon)-0D1117?style=for-the-badge&logo=html5&logoColor=00E5FF" />
   <img src="https://img.shields.io/badge/CSS_(Soon)-0D1117?style=for-the-badge&logo=css3&logoColor=00E5FF" />
+  <img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=FCEE0A" alt="Bash" />
 </p>
 
 ### Tools & Environment
@@ -52,6 +53,9 @@ May the force be with me or something like that x)
   <img src="https://img.shields.io/badge/Valgrind-0D1117?style=for-the-badge&logo=gnu&logoColor=FF003C" />
   <img src="https://img.shields.io/badge/GNU_GDB-0D1117?style=for-the-badge&logo=gnu&logoColor=FF003C" />
   <img src="https://img.shields.io/badge/AI_Tools-0D1117?style=for-the-badge&logo=openai&logoColor=FF003C" />
+  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCEE0A" alt="Linux" />
+<img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00E5FF" alt="Docker" />
+<img src="https://img.shields.io/badge/PowerShell-0D1117?style=for-the-badge&logo=powershell&logoColor=00E5FF" alt="PowerShell" />
 </p>
 
 ### Certification
