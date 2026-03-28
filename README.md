@@ -11,7 +11,7 @@
 └────────────────────────────────────────────────────────────────────┘
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Rajdhani&size=26&duration=1700&pause=700&color=FCEE0A&center=true&vCenter=true&width=980&lines=Wake+up%2C+samurai.+We+have+skills+to+build.;Rookie+netrunner+learning+the+core+systems.;One+concept+deeply.+One+project+at+a+time." alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Rajdhani&size=26&duration=1700&pause=700&color=FCEE0A&center=true&vCenter=true&width=980&lines=Wake+up%2C+samurai.+We+have+skills+to+build.;Rookie+netrunner+learning+the+core+systems.;One+concept+deeply.+One+project+at+a+time.;No+legends+start+at+level+99.;Chrome+can+wait%2C+fundamentals+come+first.;Running+jobs+in+the+badlands+of+C+and+Lua.;Night+City+wasn%E2%80%99t+built+in+one+commit." alt="Typing intro" />
 
 <img src="https://img.shields.io/badge/ROLE-Rookie%20Netrunner-FCEE0A?style=for-the-badge&labelColor=0D1117" />
 <img src="https://img.shields.io/badge/TRAINING_MODE-ACTIVE-00E5FF?style=for-the-badge&labelColor=0D1117" />
