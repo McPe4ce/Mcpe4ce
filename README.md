@@ -60,7 +60,8 @@ May the force be with me or something like that x)
 
 ### Certification
 <p>
-  <img src="https://img.shields.io/badge/IBM-Open%20Source%20Certified-0D1117?style=for-the-badge&logo=ibm&logoColor=FCEE0A" />
+  <img src="https://img.shields.io/badge/IBM-Open%20Source%20Certified-0D1117?style=for-the-badge&logo=ibm&logoColor=FCEE0A" alt="IBM Open Source Certified" />
+  <img src="https://img.shields.io/badge/IBM-AGILE%20Explorer-0D1117?style=for-the-badge&logo=ibm&logoColor=00E5FF" alt="IBM AGILE Explorer Certified" />
 </p>
 
 ---
@@ -107,7 +108,7 @@ May the force be with me or something like that x)
   <a href="https://x.com/McPeace200">
     <img src="https://img.shields.io/badge/Mcpeace200-0D1117?style=for-the-badge&logo=x&logoColor=FF003C" alt="Mcpeace200" /></a>
   </a>
-  <img src="https://img.shields.io/badge/Discord-mcpeace__-0D1117?style=for-the-badge&logo=discord&logoColor=FCEE0A" />
+  <a href="#discord-handle"><img src="https://img.shields.io/badge/Discord-0D1117?style=for-the-badge&logo=discord&logoColor=FCEE0A" alt="Discord" /></a>
 </p>
 
 ---
