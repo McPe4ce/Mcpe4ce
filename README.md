@@ -108,7 +108,7 @@ May the force be with me or something like that x)
   <a href="https://x.com/McPeace200">
     <img src="https://img.shields.io/badge/Mcpeace200-0D1117?style=for-the-badge&logo=x&logoColor=FF003C" alt="Mcpeace200" /></a>
   </a>
-  <a href="#discord-handle">Discord: mcpeace_</a>
+  <a href="#discord-handle"><img src="https://img.shields.io/badge/Discord-mcpeace__-0D1117?style=flat&logo=discord&logoColor=FCEE0A&labelColor=0D1117" alt="Discord mcpeace_" /></a>
 </p>
 
 ---
