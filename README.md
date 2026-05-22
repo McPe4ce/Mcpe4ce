@@ -1,3 +1,6 @@
+<details open>
+<summary><code>SYSTEM BOOT SEQUENCE — INITIALIZING NODE...</code></summary>
+
 <div align="center">
 
 <img src="./assets/banner.gif" width="100%" alt="Wake up Samurai — Night City" />
@@ -26,11 +29,15 @@
 ![](https://img.shields.io/badge/TRAINING_MODE-ACTIVE-00E5FF?style=for-the-badge&labelColor=0D1117)
 ![](https://img.shields.io/badge/FOCUS-FUNDAMENTALS-FF003C?style=for-the-badge&labelColor=0D1117)
 
-</div>
-
 <br/>
 
----
+![](https://komarev.com/ghpvc/?username=McPe4ce&style=for-the-badge&color=FCEE0A&labelColor=0D1117&label=CONNECTIONS+LOGGED)
+
+</div>
+
+</details>
+
+<p align="center"><code>░▒▓████████████████████████████████████████████████████████████████▓▒░</code></p>
 
 ## `⟩⟩ BRAINDANCE LOG // ABOUT ME`
 
@@ -47,7 +54,7 @@ May the force be with me or something like that x)
 
 <br/>
 
----
+<p align="center"><code>░▒▓████████████████████████████████████████████████████████████████▓▒░</code></p>
 
 ## `⟩⟩ CYBERWARE // CURRENT STACK`
 
@@ -88,7 +95,7 @@ May the force be with me or something like that x)
 
 <br/>
 
----
+<p align="center"><code>░▒▓████████████████████████████████████████████████████████████████▓▒░</code></p>
 
 ## `⟩⟩ GIGS // ACTIVE OPERATIONS`
 
@@ -143,7 +150,7 @@ _New contract incoming..._
 
 <br/>
 
----
+<p align="center"><code>░▒▓████████████████████████████████████████████████████████████████▓▒░</code></p>
 
 ## `⟩⟩ CITY TELEMETRY // LIVE SIGNALS`
 
@@ -157,12 +164,20 @@ _New contract incoming..._
 </div>
 
 <div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=McPe4ce&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="Trophies" />
+</div>
+
+<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=McPe4ce&bg_color=0D1117&color=FCEE0A&line=00E5FF&point=FF003C&area=true&hide_border=true" alt="Contribution graph" />
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/McPe4ce/Mcpe4ce/output/github-snake-dark.svg" alt="Snake animation" />
 </div>
 
 <br/>
 
----
+<p align="center"><code>░▒▓████████████████████████████████████████████████████████████████▓▒░</code></p>
 
 ## `⟩⟩ SECURE CHANNELS // NETWORK`
 
@@ -188,7 +203,7 @@ _New contract incoming..._
 
 <br/>
 
----
+<p align="center"><code>░▒▓████████████████████████████████████████████████████████████████▓▒░</code></p>
 
 <div align="center">
 
