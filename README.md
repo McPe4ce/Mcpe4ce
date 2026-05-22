@@ -17,7 +17,7 @@
 ╠══════════════════════════════════════════════════════════════════════╣
 ║  OPERATOR  ▸  MCPE4CE              CLASS   ▸  ROOKIE NETRUNNER     ║
 ║  STATUS    ▸  ONLINE / BUILDING    FOCUS   ▸  C · PYTHON · BASICS  ║
-║  THREAT    ▸  NONE DETECTED        UPTIME  ▸  COMMITTING DAILY    ║
+║  THREAT    ▸  NONE DETECTED        UPTIME  ▸  COMMITTING DAILY     ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
