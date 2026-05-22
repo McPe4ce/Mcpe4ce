@@ -46,7 +46,7 @@
 > _"Everyone has a plan 'til they get punched in the face by a pointer."_
 
 I'm a **beginner developer** building strong foundations before scaling up.
-Right now I'm focused on **C** and **Lua** — writing real code, improving through small projects.
+Right now I'm focused on **C** and **Python** — writing real code, improving through small projects.
 
 No rushed shortcuts. One concept at a time. Night City wasn't built in one commit.
 
@@ -113,11 +113,11 @@ STATUS  :: IN DEVELOPMENT
 </td>
 <td width="50%" valign="top">
 
-**`▸ SIMPLE CALCULATOR`**
+**`▸ SIMPLE SHELL`**
 ```
-TYPE    :: CLI Tool
+TYPE    :: System Tool
 STACK   :: C
-STATUS  :: COMPLETE
+STATUS  :: Done
 ```
 
 </td>
@@ -129,7 +129,7 @@ STATUS  :: COMPLETE
 ```
 TYPE    :: Core System Rebuild
 STACK   :: C
-STATUS  :: IN PROGRESS
+STATUS  :: Done
 ```
 Rebuilding `printf` for deeper understanding of C under the hood.
 
