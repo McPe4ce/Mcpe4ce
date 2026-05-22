@@ -193,11 +193,11 @@ _New contract incoming..._
 <div align="center">
 
 ```text
-╔══════════════════════════════════════════════════════════════════════╗
-║  > TRANSMISSION ENDED                                              ║
-║  > JACKING OUT OF THE GRID...                                      ║
-║  > UPLINK SEVERED. SEE YOU IN NIGHT CITY.                          ║
-╚══════════════════════════════════════════════════════════════════════╝
+        ╔══════════════════════════════════════════════════════════════════════╗
+        ║  > TRANSMISSION ENDED                                              ║
+        ║  > JACKING OUT OF THE GRID...                                      ║
+        ║  > UPLINK SEVERED. SEE YOU IN NIGHT CITY.                          ║
+        ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 <br/>
