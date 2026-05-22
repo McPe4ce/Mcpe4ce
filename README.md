@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=36&duration=0&pause=0&color=FCEE0A&center=true&vCenter=true&repeat=false&width=740&lines=MCPE4CE+%2F%2F+ROOKIE+NETRUNNER" alt="MCPE4CE // ROOKIE NETRUNNER" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=36&duration=3000&pause=1000&color=FCEE0A&center=true&vCenter=true&repeat=false&width=740&lines=MCPE4CE+%2F%2F+ROOKIE+NETRUNNER" alt="MCPE4CE // ROOKIE NETRUNNER" />
 
 <br/>
 
