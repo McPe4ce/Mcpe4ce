@@ -31,7 +31,7 @@
 
 <br/>
 
-![](https://komarev.com/ghpvc/?username=McPe4ce&style=for-the-badge&color=FCEE0A&labelColor=0D1117&label=CONNECTIONS+LOGGED)
+![](https://komarev.com/ghpvc/?username=McPe4ce&style=for-the-badge&color=0D1117&labelColor=FCEE0A&label=CONNECTIONS+LOGGED)
 
 </div>
 
