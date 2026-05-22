@@ -171,9 +171,11 @@ _New contract incoming..._
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=McPe4ce&bg_color=0D1117&color=FCEE0A&line=00E5FF&point=FF003C&area=true&hide_border=true" alt="Contribution graph" />
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/McPe4ce/Mcpe4ce/output/github-snake-dark.svg" alt="Snake animation" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/McPe4ce/Mcpe4ce/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/McPe4ce/Mcpe4ce/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/McPe4ce/Mcpe4ce/output/github-snake-dark.svg" />
+</picture>
 
 <br/>
 
