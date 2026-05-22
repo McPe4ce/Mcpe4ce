@@ -64,7 +64,7 @@ May the force be with me or something like that x)
   <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=FCEE0A" />
   <img src="https://img.shields.io/badge/Lua-0D1117?style=for-the-badge&logo=lua&logoColor=FCEE0A" />
   <img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=FCEE0A" />
-  <img src="https://img.shields.io/badge/Python_(Soon)-0D1117?style=for-the-badge&logo=python&logoColor=444c56" />
+  <img src="https://img.shields.io/badge/Python3-0D1117?style=for-the-badge&logo=python&logoColor=FCEE0A" />
   <img src="https://img.shields.io/badge/HTML_(Soon)-0D1117?style=for-the-badge&logo=html5&logoColor=444c56" />
   <img src="https://img.shields.io/badge/CSS_(Soon)-0D1117?style=for-the-badge&logo=css3&logoColor=444c56" />
 </p>
@@ -84,6 +84,8 @@ May the force be with me or something like that x)
   <img src="https://img.shields.io/badge/Valgrind-0D1117?style=for-the-badge&logo=gnu&logoColor=FF003C" />
   <img src="https://img.shields.io/badge/GNU_GDB-0D1117?style=for-the-badge&logo=gnu&logoColor=FF003C" />
   <img src="https://img.shields.io/badge/AI_Tools-0D1117?style=for-the-badge&logo=openai&logoColor=FF003C" />
+  <img src="https://img.shields.io/badge/ComfyUI-0D1117?style=for-the-badge&logo=comfyui&logoColor=FF003C" />
+  <img src="https://img.shields.io/badge/UML-0D1117?style=for-the-badge&logo=unified-modeling-language&logoColor=FF003C" />
 </p>
 
 ### `[ CERTIFICATIONS ]`
