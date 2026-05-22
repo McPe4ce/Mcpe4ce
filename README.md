@@ -16,7 +16,7 @@
 ║  NECROTECH HYDRA v2.1  ·  PERSONAL NODE ACTIVE                     ║
 ╠══════════════════════════════════════════════════════════════════════╣
 ║  OPERATOR  ▸  MCPE4CE              CLASS   ▸  ROOKIE NETRUNNER     ║
-║  STATUS    ▸  ONLINE / BUILDING    FOCUS   ▸  C · LUA · BASICS    ║
+║  STATUS    ▸  ONLINE / BUILDING    FOCUS   ▸  C · PYTHON · BASICS    ║
 ║  THREAT    ▸  NONE DETECTED        UPTIME  ▸  COMMITTING DAILY    ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
