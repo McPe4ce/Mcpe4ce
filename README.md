@@ -166,10 +166,6 @@ _New contract incoming..._
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=McPe4ce&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" alt="Trophies" />
-</div>
-
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=McPe4ce&bg_color=0D1117&color=FCEE0A&line=00E5FF&point=FF003C&area=true&hide_border=true" alt="Contribution graph" />
 </div>
 
