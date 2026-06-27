@@ -63,11 +63,10 @@ May the force be with me or something like that x)
 
 ### `[ LANGUAGES ]`
 
-<a href="#"><img src="https://skillicons.dev/icons?i=c,py,lua,bash&theme=dark&perline=8" alt="Languages" /></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=c,py,lua,bash,html,css&theme=dark&perline=8" alt="Languages" /></a>
 
 <p>
-  <img src="https://img.shields.io/badge/HTML-QUEUED-FF003C?style=for-the-badge&logo=html5&logoColor=FF003C&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/CSS-QUEUED-FF003C?style=for-the-badge&logo=css3&logoColor=FF003C&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/JavaScript-QUEUED-FCEE0A?style=for-the-badge&logo=javascript&logoColor=FCEE0A&labelColor=0D1117" />
 </p>
 
 ### `[ TOOLS & ENVIRONMENT ]`
@@ -91,6 +90,7 @@ May the force be with me or something like that x)
 <p>
   <img src="https://img.shields.io/badge/IBM-Open%20Source%20Certified-FCEE0A?style=for-the-badge&logo=ibm&logoColor=0D1117&labelColor=FCEE0A" />
   <img src="https://img.shields.io/badge/IBM-AGILE%20EXPLORER-00E5FF?style=for-the-badge&logo=ibm&logoColor=0D1117&labelColor=00E5FF" />
+  <img src="https://img.shields.io/badge/IBM-SQL%20%26%20DATABASES-FF003C?style=for-the-badge&logo=ibm&logoColor=0D1117&labelColor=FF003C" />
 </p>
 
 <br/>
@@ -132,17 +132,18 @@ STACK   :: C
 <tr>
 <td width="50%" valign="top">
 
-**`▸ PRINTF`**
+**`▸ NIGHTHUNTER`**
 
-<img src="https://img.shields.io/badge/STATUS-COMPLETE-00E5FF?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=0D1117"/>
+<img src="https://img.shields.io/badge/STATUS-IN_DEV-FCEE0A?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
 
 ```text
-TYPE    :: Core System Rebuild
-STACK   :: C
+TYPE    :: Dungeon Crawler Game
+STACK   :: Python · Flask · SQLite · JWT
 ```
 
-Rebuilding `printf` for deeper understanding of C under the hood.
+Dungeon crawler from a single script to a full REST API — auth, persistence, and client.
 
 </td>
 <td width="50%" valign="top">
