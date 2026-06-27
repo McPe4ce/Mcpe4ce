@@ -1,13 +1,17 @@
-<details open>
-<summary><code>SYSTEM BOOT SEQUENCE — INITIALIZING NODE...</code></summary>
-
 <div align="center">
 
-<img src="./assets/banner.gif" width="100%" alt="Wake up Samurai — Night City" />
+<img src="./assets/glitch.svg" width="100%" alt="MCPE4CE — Rookie Netrunner" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=36&duration=3000&pause=1000&color=FCEE0A&center=true&vCenter=true&repeat=false&width=740&lines=MCPE4CE+%2F%2F+ROOKIE+NETRUNNER" alt="MCPE4CE // ROOKIE NETRUNNER" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=1700&pause=700&color=00E5FF&center=true&vCenter=true&width=980&lines=Wake+up%2C+samurai.+We+have+skills+to+build.;Rookie+netrunner+learning+the+core+systems.;One+concept+deeply.+One+project+at+a+time.;No+legends+start+at+level+99.;Chrome+can+wait%2C+fundamentals+come+first.;Running+jobs+in+the+badlands+of+C+and+Lua.;Night+City+wasn%E2%80%99t+built+in+one+commit." alt="Typing intro" />
+
+</div>
+
+<details open>
+<summary><code>⟩ SYSTEM BOOT SEQUENCE — INITIALIZING NODE...</code></summary>
+
+<div align="center">
 
 <br/>
 
@@ -20,8 +24,6 @@
 ║  THREAT    ▸  NONE DETECTED        UPTIME  ▸  COMMITTING DAILY     ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=1700&pause=700&color=00E5FF&center=true&vCenter=true&width=980&lines=Wake+up%2C+samurai.+We+have+skills+to+build.;Rookie+netrunner+learning+the+core+systems.;One+concept+deeply.+One+project+at+a+time.;No+legends+start+at+level+99.;Chrome+can+wait%2C+fundamentals+come+first.;Running+jobs+in+the+badlands+of+C+and+Lua.;Night+City+wasn%E2%80%99t+built+in+one+commit." alt="Typing intro" />
 
 <br/>
 
@@ -60,39 +62,34 @@ May the force be with me or something like that x)
 
 ### `[ LANGUAGES ]`
 
+<a href="#"><img src="https://skillicons.dev/icons?i=c,py,lua,bash&theme=dark&perline=8" alt="Languages" /></a>
+
 <p>
-  <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=FCEE0A" />
-  <img src="https://img.shields.io/badge/Lua-0D1117?style=for-the-badge&logo=lua&logoColor=FCEE0A" />
-  <img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=FCEE0A" />
-  <img src="https://img.shields.io/badge/Python3-0D1117?style=for-the-badge&logo=python&logoColor=FCEE0A" />
   <img src="https://img.shields.io/badge/HTML_(Soon)-0D1117?style=for-the-badge&logo=html5&logoColor=444c56" />
   <img src="https://img.shields.io/badge/CSS_(Soon)-0D1117?style=for-the-badge&logo=css3&logoColor=444c56" />
 </p>
 
 ### `[ TOOLS & ENVIRONMENT ]`
 
-<p>
-  <img src="https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=FCEE0A" />
-  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=FCEE0A" />
-  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FCEE0A" />
-  <img src="https://img.shields.io/badge/GitHub_Desktop-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF" />
-  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCEE0A" />
-  <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00E5FF" />
-  <img src="https://img.shields.io/badge/PowerShell-0D1117?style=for-the-badge&logo=powershell&logoColor=00E5FF" />
-  <img src="https://img.shields.io/badge/Figma-0D1117?style=for-the-badge&logo=figma&logoColor=00E5FF" />
-  <img src="https://img.shields.io/badge/Canva-0D1117?style=for-the-badge&logo=canva&logoColor=00E5FF" />
-  <img src="https://img.shields.io/badge/Valgrind-0D1117?style=for-the-badge&logo=gnu&logoColor=FF003C" />
-  <img src="https://img.shields.io/badge/GNU_GDB-0D1117?style=for-the-badge&logo=gnu&logoColor=FF003C" />
-  <img src="https://img.shields.io/badge/AI_Tools-0D1117?style=for-the-badge&logo=openai&logoColor=FF003C" />
-  <img src="https://img.shields.io/badge/ComfyUI-0D1117?style=for-the-badge&logo=comfyui&logoColor=FF003C" />
-  <img src="https://img.shields.io/badge/UML-0D1117?style=for-the-badge&logo=unified-modeling-language&logoColor=FF003C" />
-</p>
+<a href="#"><img src="https://skillicons.dev/icons?i=vscode,git,github,linux,docker,figma,powershell&theme=dark&perline=8" alt="Tools" /></a>
+
+<br/>
+
+```text
+╔══════════════════════════════════════════════════════════════╗
+║  AUXILIARY MODULES                                          ║
+╠══════════════════════════════════════════════════════════════╣
+║  [■] GitHub Desktop   [■] Canva        [■] Valgrind        ║
+║  [■] GNU GDB          [■] AI Tools     [■] ComfyUI         ║
+║  [■] UML                                                   ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
 ### `[ CERTIFICATIONS ]`
 
 <p>
   <img src="https://img.shields.io/badge/IBM-Open%20Source%20Certified-FCEE0A?style=for-the-badge&logo=ibm&logoColor=0D1117&labelColor=FCEE0A" />
-  <img src="https://img.shields.io/badge/IBM-AGILE%20Explorer-00E5FF?style=for-the-badge&logo=ibm&logoColor=0D1117&labelColor=00E5FF" />
+  <img src="https://img.shields.io/badge/IBM-AGILE%20EXPLORER-00E5FF?style=for-the-badge&logo=ibm&logoColor=0D1117&labelColor=00E5FF" />
 </p>
 
 <br/>
@@ -157,16 +154,16 @@ _New contract incoming..._
 ## `⟩⟩ CITY TELEMETRY // LIVE SIGNALS`
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=McPe4ce&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=McPe4ce&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</div>
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=McPe4ce&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</div>
+<table><tr>
+<td><img src="https://github-readme-stats-sigma-five.vercel.app/api?username=McPe4ce&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" /></td>
+<td><img src="https://streak-stats.demolab.com?user=McPe4ce&theme=tokyonight&hide_border=true" alt="GitHub streak" /></td>
+</tr></table>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=McPe4ce&bg_color=0D1117&color=FCEE0A&line=00E5FF&point=FF003C&area=true&hide_border=true" alt="Contribution graph" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=McPe4ce&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=McPe4ce&bg_color=0D1117&color=FCEE0A&line=00E5FF&point=FF003C&area=true&hide_border=true" alt="Contribution graph" />
+
 </div>
 
 <picture>
@@ -228,3 +225,5 @@ _New contract incoming..._
 <sub><code>[ GRID STATUS: ONLINE ]</code> &nbsp;·&nbsp; <code>[ NODE: MCPE4CE ]</code> &nbsp;·&nbsp; <code>[ UPTIME: ACTIVE ]</code></sub>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%"/>
