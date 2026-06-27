@@ -1,100 +1,182 @@
 <svg width="860" height="180" viewBox="0 0 860 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
+      /* ── Typography ── */
       .main { font: bold 72px 'Courier New', Courier, monospace; fill: #FCEE0A; }
-      .cyan { fill: #00E5FF; }
-      .red  { fill: #FF003C; }
-      .sub  { font: 13px 'Courier New', Courier, monospace; fill: #00E5FF; letter-spacing: 10px; }
-      .tag  { font: 11px 'Courier New', Courier, monospace; fill: #444c56; letter-spacing: 3px; }
+      .sub  { font: 13px  'Courier New', Courier, monospace; fill: #00E5FF; letter-spacing: 10px; }
+      .tag  { font: 11px  'Courier New', Courier, monospace; fill: #8b949e; letter-spacing: 3px; }
+
+      /* ── Neon glow + pulse on main title ── */
       .glow {
-        filter: drop-shadow(0 0 6px #FCEE0A) drop-shadow(0 0 22px #FCEE0A88);
+        filter: drop-shadow(0 0 4px #FCEE0A) drop-shadow(0 0 18px #FCEE0Acc);
         animation: pulse 3s ease-in-out infinite;
       }
+      @keyframes pulse {
+        0%,100% { filter: drop-shadow(0 0 4px #FCEE0A) drop-shadow(0 0 14px #FCEE0A88); }
+        50%     { filter: drop-shadow(0 0 10px #FCEE0A) drop-shadow(0 0 36px #FCEE0Acc) drop-shadow(0 0 60px #FCEE0A44); }
+      }
+
+      /* ── Glitch layers (clip-path set as SVG attributes) ── */
       .gt { animation: glitch-top 5s infinite; }
       .gb { animation: glitch-bot 5s infinite; }
-      .sf { animation: flicker 6s infinite; }
-      .bar { animation: bar-blink 2s step-end infinite; }
       @keyframes glitch-top {
-        0%,88%,100% { transform:translateX(0); opacity:0; }
-        90%  { transform:translateX(-7px); opacity:.9; }
-        92%  { transform:translateX(7px);  opacity:0; }
-        94%  { transform:translateX(-3px); opacity:.5; }
-        96%  { opacity:0; }
+        0%,87%,100% { transform:translateX(0);   opacity:0; }
+        89%  { transform:translateX(-9px);  opacity:.95; }
+        90%  { transform:translateX(5px);   opacity:.4; }
+        91%  { transform:translateX(-3px);  opacity:.7; }
+        92%  { transform:translateX(0);     opacity:0; }
       }
       @keyframes glitch-bot {
-        0%,86%,100% { transform:translateX(0); opacity:0; }
-        88%  { transform:translateX(7px);  opacity:.8; }
-        90%  { transform:translateX(-7px); opacity:0; }
-        92%  { transform:translateX(3px);  opacity:.45; }
-        94%  { opacity:0; }
+        0%,85%,100% { transform:translateX(0);   opacity:0; }
+        87%  { transform:translateX(9px);   opacity:.85; }
+        88%  { transform:translateX(-5px);  opacity:.3; }
+        89%  { transform:translateX(3px);   opacity:.6; }
+        90%  { transform:translateX(0);     opacity:0; }
       }
-      @keyframes pulse {
-        0%,100% { filter: drop-shadow(0 0 5px #FCEE0A) drop-shadow(0 0 16px #FCEE0A66); }
-        50%     { filter: drop-shadow(0 0 14px #FCEE0A) drop-shadow(0 0 38px #FCEE0AAA); }
+
+      /* ── RGB chromatic aberration ── */
+      .rgb-c { fill: #00E5FF; opacity:0; animation: chroma-c 5s infinite; }
+      .rgb-r { fill: #FF003C; opacity:0; animation: chroma-r 5s infinite; }
+      @keyframes chroma-c {
+        0%,86%,100% { opacity:0; transform:translateX(0); }
+        88%  { opacity:.45; transform:translateX(-11px); }
+        89%  { opacity:.2;  transform:translateX(-5px); }
+        90%  { opacity:0; }
       }
+      @keyframes chroma-r {
+        0%,86%,100% { opacity:0; transform:translateX(0); }
+        88%  { opacity:.45; transform:translateX(11px); }
+        89%  { opacity:.2;  transform:translateX(5px); }
+        90%  { opacity:0; }
+      }
+
+      /* ── Subtitle flicker ── */
+      .sf { animation: flicker 7s infinite; }
       @keyframes flicker {
-        0%,45%,47%,100% { opacity:1; }
-        46% { opacity:.08; }
+        0%,44%,46%,100% { opacity:1; }
+        45%  { opacity:.06; }
       }
-      @keyframes bar-blink {
+
+      /* ── Blinking cursor ── */
+      .cur { animation: blink 1s step-end infinite; }
+      @keyframes blink {
         0%,49% { opacity:1; }
         50%,100% { opacity:0; }
       }
+
+      /* ── Corner dot pulse ── */
+      .dot  {
+        transform-box: fill-box; transform-origin: center;
+        animation: dot-pulse 2.4s ease-in-out infinite;
+      }
+      .dot2 {
+        transform-box: fill-box; transform-origin: center;
+        animation: dot-pulse 2.4s ease-in-out infinite 1.2s;
+      }
+      @keyframes dot-pulse {
+        0%,100% { opacity:1;   transform:scale(1); }
+        50%     { opacity:.2;  transform:scale(0.5); }
+      }
+
+      /* ── Horizontal scan bar sweep ── */
+      .sweep { animation: scan-sweep 9s ease-in-out infinite; }
+      @keyframes scan-sweep {
+        0%,73%         { opacity:0; transform:translateX(-160px); }
+        75%            { opacity:.09; transform:translateX(-160px); }
+        91%            { opacity:.04; transform:translateX(1020px); }
+        92%,100%       { opacity:0;  transform:translateX(-160px); }
+      }
+
+      /* ── CRT scanline roll ── */
+      .scan-roll { animation: roll 0.12s linear infinite; }
+      @keyframes roll {
+        0%   { transform:translateY(0px); }
+        100% { transform:translateY(4px); }
+      }
+
+      /* ── Random noise flash ── */
+      .noise { animation: noise-flash 11s step-end infinite; opacity:0; }
+      @keyframes noise-flash {
+        0%,94%,96%,100% { opacity:0; }
+        95%             { opacity:.04; }
+      }
     </style>
-    <clipPath id="ct">
-      <rect x="0" y="0" width="860" height="88"/>
-    </clipPath>
-    <clipPath id="cb">
-      <rect x="0" y="104" width="860" height="76"/>
-    </clipPath>
+
+    <!-- Clip paths for glitch top/bottom slices -->
+    <clipPath id="ct"><rect x="0" y="0"   width="860" height="88"/></clipPath>
+    <clipPath id="cb"><rect x="0" y="106" width="860" height="74"/></clipPath>
+
+    <!-- CRT scanline pattern -->
+    <pattern id="crt" width="1" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="1" height="2" fill="#000" opacity="0.25"/>
+    </pattern>
+
+    <!-- Scan bar gradient -->
+    <linearGradient id="bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="35%"  stop-color="#00E5FF" stop-opacity="1"/>
+      <stop offset="65%"  stop-color="#00E5FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
-  <!-- Background -->
+  <!-- ── Background ── -->
   <rect fill="#0D1117" width="860" height="180"/>
 
-  <!-- Subtle grid lines -->
-  <line x1="0"   y1="60"  x2="860" y2="60"  stroke="#FCEE0A" stroke-width="0.3" opacity="0.08"/>
-  <line x1="0"   y1="120" x2="860" y2="120" stroke="#FCEE0A" stroke-width="0.3" opacity="0.08"/>
-  <line x1="215" y1="0"   x2="215" y2="180" stroke="#FCEE0A" stroke-width="0.3" opacity="0.05"/>
-  <line x1="430" y1="0"   x2="430" y2="180" stroke="#FCEE0A" stroke-width="0.3" opacity="0.05"/>
-  <line x1="645" y1="0"   x2="645" y2="180" stroke="#FCEE0A" stroke-width="0.3" opacity="0.05"/>
+  <!-- Subtle perspective grid -->
+  <line x1="0"   y1="60"  x2="860" y2="60"  stroke="#FCEE0A" stroke-width="0.3" opacity="0.07"/>
+  <line x1="0"   y1="120" x2="860" y2="120" stroke="#FCEE0A" stroke-width="0.3" opacity="0.07"/>
+  <line x1="215" y1="0"   x2="215" y2="180" stroke="#FCEE0A" stroke-width="0.3" opacity="0.04"/>
+  <line x1="430" y1="0"   x2="430" y2="180" stroke="#FCEE0A" stroke-width="0.3" opacity="0.04"/>
+  <line x1="645" y1="0"   x2="645" y2="180" stroke="#FCEE0A" stroke-width="0.3" opacity="0.04"/>
 
-  <!-- Top/bottom accent lines -->
-  <line x1="20" y1="16"  x2="840" y2="16"  stroke="#FCEE0A" stroke-width="0.8" opacity="0.35"/>
-  <line x1="20" y1="164" x2="840" y2="164" stroke="#FCEE0A" stroke-width="0.8" opacity="0.35"/>
+  <!-- ── CRT scanlines overlay ── -->
+  <rect x="0" y="-4" width="860" height="188" fill="url(#crt)" class="scan-roll" opacity="0.55"/>
 
-  <!-- Corner brackets — cyan -->
-  <polyline points="8,8  8,34  34,34"  fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.7"/>
-  <polyline points="852,8  852,34  826,34" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.7"/>
-  <polyline points="8,172  8,146  34,146" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.7"/>
-  <polyline points="852,172 852,146 826,146" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.7"/>
+  <!-- Noise flash layer -->
+  <rect width="860" height="180" fill="#FCEE0A" class="noise"/>
 
-  <!-- Corner dot accents -->
-  <rect x="5"   y="5"   width="4" height="4" fill="#FCEE0A" opacity="0.6"/>
-  <rect x="851" y="5"   width="4" height="4" fill="#FCEE0A" opacity="0.6"/>
-  <rect x="5"   y="171" width="4" height="4" fill="#FCEE0A" opacity="0.6"/>
-  <rect x="851" y="171" width="4" height="4" fill="#FCEE0A" opacity="0.6"/>
+  <!-- ── Top / bottom accent lines ── -->
+  <line x1="20" y1="16"  x2="840" y2="16"  stroke="#FCEE0A" stroke-width="0.8" opacity="0.4"/>
+  <line x1="20" y1="164" x2="840" y2="164" stroke="#FCEE0A" stroke-width="0.8" opacity="0.4"/>
 
-  <!-- Top tag -->
+  <!-- ── Corner brackets (cyan) ── -->
+  <polyline points="8,8   8,34  34,34"  fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.75"/>
+  <polyline points="852,8 852,34 826,34" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.75"/>
+  <polyline points="8,172  8,146  34,146" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.75"/>
+  <polyline points="852,172 852,146 826,146" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.75"/>
+
+  <!-- ── Pulsing corner dots ── -->
+  <rect x="5"   y="5"   width="5" height="5" fill="#FCEE0A" class="dot"/>
+  <rect x="850" y="5"   width="5" height="5" fill="#FCEE0A" class="dot2"/>
+  <rect x="5"   y="170" width="5" height="5" fill="#FCEE0A" class="dot2"/>
+  <rect x="850" y="170" width="5" height="5" fill="#FCEE0A" class="dot"/>
+
+  <!-- ── Top tag ── -->
   <text x="430" y="38" text-anchor="middle" class="tag">◈  NECROTECH HYDRA v2.1  ◈  PERSONAL NODE ACTIVE  ◈</text>
 
-  <!-- Glitch copy — top slice (cyan) -->
+  <!-- ── Horizontal scan bar ── -->
+  <rect x="-80" y="0" width="160" height="180" fill="url(#bar-grad)" class="sweep"/>
+
+  <!-- ── RGB chromatic aberration (behind main) ── -->
+  <text x="426" y="104" text-anchor="middle" class="main rgb-c">MCPE4CE</text>
+  <text x="434" y="104" text-anchor="middle" class="main rgb-r">MCPE4CE</text>
+
+  <!-- ── Glitch layers (top / bottom slices) ── -->
   <g clip-path="url(#ct)" class="gt">
-    <text x="430" y="104" text-anchor="middle" class="main cyan">MCPE4CE</text>
+    <text x="430" y="104" text-anchor="middle" class="main" fill="#00E5FF">MCPE4CE</text>
   </g>
-
-  <!-- Glitch copy — bottom slice (red) -->
   <g clip-path="url(#cb)" class="gb">
-    <text x="430" y="104" text-anchor="middle" class="main red">MCPE4CE</text>
+    <text x="430" y="104" text-anchor="middle" class="main" fill="#FF003C">MCPE4CE</text>
   </g>
 
-  <!-- Main glowing title -->
+  <!-- ── Main neon title ── -->
   <text x="430" y="104" text-anchor="middle" class="main glow">MCPE4CE</text>
 
-  <!-- Subtitle with flicker + blinking cursor -->
-  <text x="430" y="144" text-anchor="middle" class="sub sf">[ ROOKIE NETRUNNER ]</text>
-  <rect x="624" y="131" width="8" height="14" fill="#00E5FF" class="bar" opacity="0.8"/>
+  <!-- ── Subtitle + blinking cursor ── -->
+  <text x="430" y="142" text-anchor="middle" class="sub sf">[ ROOKIE NETRUNNER ]</text>
+  <rect x="626" y="129" width="8" height="14" fill="#00E5FF" class="cur" opacity="0.9"/>
 
-  <!-- Bottom tag -->
+  <!-- ── Bottom tag ── -->
   <text x="430" y="158" text-anchor="middle" class="tag">NODE: ONLINE  ·  STATUS: BUILDING  ·  UPTIME: COMMITTING DAILY</text>
 </svg>
