@@ -45,10 +45,11 @@
 
 <img align="right" src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=2000&pause=500&color=FF003C&center=true&vCenter=true&multiline=true&width=210&height=80&lines=%5B+NEURAL+LINK+ACTIVE+%5D;%5B+READING+BIO+DATA+%5D;%5B+SYNC+COMPLETE+%5D" alt="Neural sync" />
 
+> [!CAUTION]
 > _"Everyone has a plan 'til they get punched in the face by a pointer."_
 
 I'm a **beginner developer** building strong foundations before scaling up.
-Right now I'm focused on **C** and **Python** — writing real code, improving through small projects.
+Right now I'm focused on <kbd>C</kbd> and <kbd>Python</kbd> — writing real code, improving through small projects.
 
 No rushed shortcuts. One concept at a time. Night City wasn't built in one commit.
 
@@ -65,8 +66,8 @@ May the force be with me or something like that x)
 <a href="#"><img src="https://skillicons.dev/icons?i=c,py,lua,bash&theme=dark&perline=8" alt="Languages" /></a>
 
 <p>
-  <img src="https://img.shields.io/badge/HTML_(Soon)-0D1117?style=for-the-badge&logo=html5&logoColor=444c56" />
-  <img src="https://img.shields.io/badge/CSS_(Soon)-0D1117?style=for-the-badge&logo=css3&logoColor=444c56" />
+  <img src="https://img.shields.io/badge/HTML-QUEUED-FF003C?style=for-the-badge&logo=html5&logoColor=FF003C&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/CSS-QUEUED-FF003C?style=for-the-badge&logo=css3&logoColor=FF003C&labelColor=0D1117" />
 </p>
 
 ### `[ TOOLS & ENVIRONMENT ]`
@@ -103,20 +104,27 @@ May the force be with me or something like that x)
 <td width="50%" valign="top">
 
 **`▸ CARDRIFT`**
-```
+
+<img src="https://img.shields.io/badge/STATUS-IN_DEV-FCEE0A?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Lua-000090?style=flat-square&logo=lua&logoColor=white"/>
+<img src="https://img.shields.io/badge/Roblox-E30B1C?style=flat-square&logo=roblox&logoColor=white"/>
+
+```text
 TYPE    :: Roblox Card Game
 STACK   :: Lua · Roblox · Claude
-STATUS  :: IN DEVELOPMENT
 ```
 
 </td>
 <td width="50%" valign="top">
 
 **`▸ SIMPLE SHELL`**
-```
+
+<img src="https://img.shields.io/badge/STATUS-COMPLETE-00E5FF?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=0D1117"/>
+
+```text
 TYPE    :: System Tool
 STACK   :: C
-STATUS  :: Done
 ```
 
 </td>
@@ -125,22 +133,30 @@ STATUS  :: Done
 <td width="50%" valign="top">
 
 **`▸ PRINTF`**
-```
+
+<img src="https://img.shields.io/badge/STATUS-COMPLETE-00E5FF?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=0D1117"/>
+
+```text
 TYPE    :: Core System Rebuild
 STACK   :: C
-STATUS  :: Done
 ```
+
 Rebuilding `printf` for deeper understanding of C under the hood.
 
 </td>
 <td width="50%" valign="top">
 
 **`▸ ???`**
-```
+
+<img src="https://img.shields.io/badge/STATUS-INCOMING-FF003C?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/STACK-CLASSIFIED-FF003C?style=flat-square&labelColor=0D1117"/>
+
+```text
 TYPE    :: UNKNOWN
 STACK   :: CLASSIFIED
-STATUS  :: INCOMING
 ```
+
 _New contract incoming..._
 
 </td>
