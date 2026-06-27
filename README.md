@@ -202,8 +202,9 @@ _New contract incoming..._
 <a href="https://discord.com/users/mcpeace_">
   <img src="https://img.shields.io/badge/◈_DISCORD-mcpeace__-FCEE0A?style=for-the-badge&logo=discord&logoColor=FCEE0A&labelColor=0D1117&color=0D1117" alt="Discord" />
 </a>
-<a href="www.linkedin.com/in/philippe-ghanem">
-  <img src=""
+&nbsp;
+<a href="https://www.linkedin.com/in/philippe-ghanem">
+  <img src="https://img.shields.io/badge/◈_LINKEDIN-philippe--ghanem-00E5FF?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0D1117&color=0D1117" alt="LinkedIn" />
 </a>
 
 </div>
