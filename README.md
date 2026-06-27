@@ -166,7 +166,7 @@ _New contract incoming..._
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=McPe4ce&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=McPe4ce&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" alt="Trophies" />
 </div>
 
 <div align="center">
