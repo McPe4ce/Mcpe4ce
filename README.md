@@ -33,7 +33,7 @@
 
 <br/>
 
-[![](https://api.visitorbadge.io/api/unique?path=https%3A%2F%2Fgithub.com%2FMcPe4ce&label=CONNECTIONS%20LOGGED&labelColor=%23FCEE0A&countColor=%230D1117&style=for-the-badge)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FMcPe4ce)
+[![](https://api.visitorbadge.io/api/unique?path=https%3A%2F%2Fgithub.com%2FMcPe4ce&label=CONNECTIONS%20LOGGED&labelColor=%23FCEE0A&countColor=%2300E5FF&style=for-the-badge)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FMcPe4ce)
 
 </div>
 
