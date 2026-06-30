@@ -33,7 +33,7 @@
 
 <br/>
 
-[![](https://api.visitorbadge.io/api/unique?path=https%3A%2F%2Fgithub.com%2FMcPe4ce&label=CONNECTIONS%20LOGGED&labelColor=%23FCEE0A&countColor=%2300E5FF&style=for-the-badge)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FMcPe4ce)
+![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMcPe4ce%2FMcPe4ce%2Fmain%2F.github%2Fbadges%2Fvisitors.json)
 
 </div>
 

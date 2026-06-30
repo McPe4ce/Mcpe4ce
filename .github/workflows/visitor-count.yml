@@ -1,0 +1,83 @@
+name: Visitor Count
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-visitors:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch and accumulate visitor data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'EOF'
+          import json, os, urllib.request
+
+          owner = 'McPe4ce'
+          repo  = 'McPe4ce'
+          token = os.environ['GITHUB_TOKEN']
+
+          req = urllib.request.Request(
+              f'https://api.github.com/repos/{owner}/{repo}/traffic/views',
+              headers={
+                  'Authorization': f'Bearer {token}',
+                  'Accept': 'application/vnd.github+json',
+                  'X-GitHub-Api-Version': '2022-11-28',
+              }
+          )
+          with urllib.request.urlopen(req) as r:
+              data = json.loads(r.read())
+
+          history_path = '.github/data/visitor-history.json'
+          os.makedirs(os.path.dirname(history_path), exist_ok=True)
+          os.makedirs('.github/badges', exist_ok=True)
+
+          history = {}
+          if os.path.exists(history_path):
+              with open(history_path) as f:
+                  history = json.load(f)
+
+          # Merge by date — re-running never double-counts the same day
+          for entry in data.get('views', []):
+              date = entry['timestamp'][:10]
+              prev = history.get(date, {'count': 0, 'uniques': 0})
+              history[date] = {
+                  'count':   max(prev['count'],   entry['count']),
+                  'uniques': max(prev['uniques'], entry['uniques']),
+              }
+
+          with open(history_path, 'w') as f:
+              json.dump(dict(sorted(history.items())), f, indent=2)
+
+          total = sum(v['uniques'] for v in history.values())
+
+          badge = {
+              'schemaVersion': 1,
+              'label': 'CONNECTIONS LOGGED',
+              'message': str(total),
+              'color': '0D1117',
+              'labelColor': 'FCEE0A',
+              'style': 'for-the-badge',
+              'cacheSeconds': 3600,
+          }
+          with open('.github/badges/visitors.json', 'w') as f:
+              json.dump(badge, f, indent=2)
+
+          print(f'Cumulative unique visitors: {total}')
+          EOF
+
+      - name: Commit updated data
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .github/data/visitor-history.json .github/badges/visitors.json
+          git diff --staged --quiet || git commit -m 'chore: update visitor count'
+          git push
