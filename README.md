@@ -33,7 +33,7 @@
 
 <br/>
 
-![](https://komarev.com/ghpvc/?username=McPe4ce&style=for-the-badge&color=0D1117&labelColor=FCEE0A&label=CONNECTIONS+LOGGED)
+[![](https://api.visitorbadge.io/api/unique?path=https%3A%2F%2Fgithub.com%2FMcPe4ce&label=CONNECTIONS%20LOGGED&labelColor=%23FCEE0A&countColor=%230D1117&style=for-the-badge)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FMcPe4ce)
 
 </div>
 
