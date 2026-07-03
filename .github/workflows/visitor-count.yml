@@ -22,7 +22,7 @@ jobs:
           import json, os, urllib.request
 
           owner = 'McPe4ce'
-          repo  = 'McPe4ce'
+          repo  = 'Mcpe4ce'
           token = os.environ['GITHUB_TOKEN']
 
           req = urllib.request.Request(
