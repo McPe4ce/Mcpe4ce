@@ -16,7 +16,7 @@ jobs:
 
       - name: Fetch and accumulate visitor data
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
         run: |
           python3 << 'EOF'
           import json, os, urllib.request
