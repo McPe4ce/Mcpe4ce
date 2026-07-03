@@ -7,7 +7,11 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(curl -sI \"https://api.visitorbadge.io/api/unique?path=https%3A%2F%2Fgithub.com%2FMcPe4ce&label=CONNECTIONS%20LOGGED&labelColor=%23FCEE0A&countColor=%2300E5FF&style=for-the-badge\")",
       "Bash(curl -sI \"https://api.visitorbadge.io/api/unique?path=https%3A%2F%2Fgithub.com%2FMcPe4ce&label=CONNECTIONS%20LOGGED&labelColor=%23FCEE0A&countColor=%2300E5FF&style=for-the-badge\" -H \"User-Agent: Mozilla/5.0\")",
-      "Bash(curl -sI \"https://komarev.com/ghpvc/?username=McPe4ce&style=for-the-badge\")"
+      "Bash(curl -sI \"https://komarev.com/ghpvc/?username=McPe4ce&style=for-the-badge\")",
+      "Bash(gh secret *)",
+      "Bash(gh auth *)",
+      "WebSearch",
+      "WebFetch(domain:docs.github.com)"
     ]
   }
 }
