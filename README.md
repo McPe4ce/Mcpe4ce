@@ -20,7 +20,7 @@
 ║  NECROTECH HYDRA v2.1  ·  PERSONAL NODE ACTIVE                     ║
 ╠══════════════════════════════════════════════════════════════════════╣
 ║  OPERATOR  ▸  MCPE4CE              CLASS   ▸  ROOKIE NETRUNNER     ║
-║  STATUS    ▸  ONLINE / BUILDING    FOCUS   ▸  C · PYTHON · BASICS  ║
+║  STATUS    ▸  ONLINE / BUILDING    FOCUS   ▸  C · PYTHON · JS · AI ║
 ║  THREAT    ▸  NONE DETECTED        UPTIME  ▸  COMMITTING DAILY     ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
@@ -49,7 +49,8 @@
 > _"Everyone has a plan 'til they get punched in the face by a pointer."_
 
 I'm a **beginner developer** building strong foundations before scaling up.
-Right now I'm focused on <kbd>C</kbd> and <kbd>Python</kbd> — writing real code, improving through small projects.
+Right now I'm focused on <kbd>C</kbd>, <kbd>Python</kbd> and <kbd>JavaScript</kbd> — writing real code, improving through small projects.
+Lately I've been shipping web backends with <kbd>Flask</kbd> and building **AI agents** with <kbd>Google ADK</kbd> and <kbd>Ollama</kbd>.
 
 No rushed shortcuts. One concept at a time. Night City wasn't built in one commit.
 
@@ -63,10 +64,15 @@ May the force be with me or something like that x)
 
 ### `[ LANGUAGES ]`
 
-<a href="#"><img src="https://skillicons.dev/icons?i=c,py,lua,bash,html,css&theme=dark&perline=8" alt="Languages" /></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=c,py,js,lua,bash,html,css&theme=dark&perline=8" alt="Languages" /></a>
+
+### `[ FRAMEWORKS & AI ]`
+
+<a href="#"><img src="https://skillicons.dev/icons?i=flask,sqlite&theme=dark&perline=8" alt="Frameworks" /></a>
 
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-QUEUED-FCEE0A?style=for-the-badge&logo=javascript&logoColor=FCEE0A&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Google_ADK-AI%20AGENTS-00E5FF?style=for-the-badge&logo=google&logoColor=00E5FF&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Ollama-LOCAL%20LLMs-FCEE0A?style=for-the-badge&logo=ollama&logoColor=FCEE0A&labelColor=0D1117" />
 </p>
 
 ### `[ TOOLS & ENVIRONMENT ]`
@@ -148,17 +154,18 @@ Dungeon crawler from a single script to a full REST API — auth, persistence, a
 </td>
 <td width="50%" valign="top">
 
-**`▸ ???`**
+**`▸ WEBSITE FOR A SOPRANO`**
 
-<img src="https://img.shields.io/badge/STATUS-INCOMING-FF003C?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/STACK-CLASSIFIED-FF003C?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/STATUS-DEPLOYING_SOON-FF003C?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0D1117"/>
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white"/>
 
 ```text
-TYPE    :: UNKNOWN
-STACK   :: CLASSIFIED
+TYPE    :: Portfolio Website
+STACK   :: HTML · CSS · Vanilla JS · Netlify
 ```
 
-_New contract incoming..._
+Bilingual FR/EN portfolio for a French soprano — no framework, no build step, JSON-driven content.
 
 </td>
 </tr>
