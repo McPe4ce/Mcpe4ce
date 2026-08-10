@@ -33,6 +33,12 @@
 
 <br/>
 
+<a href="https://elodie-tisserand-soprano.fr/">
+  <img src="https://img.shields.io/badge/◈_LIVE_DEPLOY-elodie--tisserand--soprano.fr-00E5FF?style=for-the-badge&logo=netlify&logoColor=00E5FF&labelColor=0D1117&color=0D1117" alt="Live deploy — elodie-tisserand-soprano.fr" />
+</a>
+
+<br/><br/>
+
 ![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMcPe4ce%2FMcPe4ce%2Fmain%2F.github%2Fbadges%2Fvisitors.json)
 
 </div>
@@ -105,9 +111,52 @@ May the force be with me or something like that x)
 
 ## `⟩⟩ GIGS // ACTIVE OPERATIONS`
 
+<div align="center">
+
+```text
+╔══════════════════════════════════════════════════════════════════════╗
+║  ★ FLAGSHIP DEPLOY  ·  SIGNAL LIVE ON THE GRID                     ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  CLIENT  ▸  ÉLODIE TISSERAND · SOPRANO                             ║
+║  NODE    ▸  elodie-tisserand-soprano.fr                            ║
+║  STATUS  ▸  ONLINE / SHIPPED TO A REAL CLIENT                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+### `[ ▸ WEBSITE FOR A SOPRANO ]`
+
+<a href="https://elodie-tisserand-soprano.fr/">
+  <img src="https://img.shields.io/badge/◈_VISIT_LIVE_SITE-elodie--tisserand--soprano.fr-00E5FF?style=for-the-badge&logo=netlify&logoColor=00E5FF&labelColor=0D1117&color=0D1117" alt="Live site" />
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/STATUS-LIVE-00E5FF?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/CLIENT-REAL_WORLD-FF003C?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0D1117"/>
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white"/>
+
+</div>
+
+```text
+TYPE    :: Client Portfolio Website  ·  DELIVERED
+STACK   :: HTML · CSS · Vanilla JS · Netlify
+EXTRAS  :: Bilingual FR/EN · JSON-driven content · Zero framework, zero build step
+```
+
+Bilingual **FR/EN** portfolio built for a French soprano — no framework, no build step, all content
+driven from JSON so the artist can update her own bio, repertoire and dates. Designed, built and
+deployed end-to-end. **First project shipped to a real client.**
+
+<br/>
+
+<p align="center"><code>─────────────────────────  OTHER OPERATIONS  ─────────────────────────</code></p>
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **`▸ CARDRIFT`**
 
@@ -121,7 +170,7 @@ STACK   :: Lua · Roblox · Claude
 ```
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **`▸ SIMPLE SHELL`**
 
@@ -133,10 +182,10 @@ TYPE    :: System Tool
 STACK   :: C
 ```
 
+Unix shell rebuilt from scratch in C — parsing, forking, builtins.
+
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **`▸ NIGHTHUNTER`**
 
@@ -150,22 +199,6 @@ STACK   :: Python · Flask · SQLite · JWT
 ```
 
 Dungeon crawler from a single script to a full REST API — auth, persistence, and client.
-
-</td>
-<td width="50%" valign="top">
-
-**`▸ WEBSITE FOR A SOPRANO`**
-
-<img src="https://img.shields.io/badge/STATUS-DEPLOYING_SOON-FF003C?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0D1117"/>
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white"/>
-
-```text
-TYPE    :: Portfolio Website
-STACK   :: HTML · CSS · Vanilla JS · Netlify
-```
-
-Bilingual FR/EN portfolio for a French soprano — no framework, no build step, JSON-driven content.
 
 </td>
 </tr>
