@@ -34,7 +34,7 @@
 <br/>
 
 <a href="https://elodie-tisserand-soprano.fr/">
-  <img src="https://img.shields.io/badge/◈_LIVE_DEPLOY-elodie--tisserand--soprano.fr-00E5FF?style=for-the-badge&logo=netlify&logoColor=00E5FF&labelColor=0D1117&color=0D1117" alt="Live deploy — elodie-tisserand-soprano.fr" />
+  <img src="https://img.shields.io/badge/◈_LIVE_DEPLOY-elodie--tisserand--soprano.fr-00E5FF?style=for-the-badge&logo=icloud&logoColor=00E5FF&labelColor=0D1117&color=0D1117" alt="Live deploy — elodie-tisserand-soprano.fr" />
 </a>
 
 <br/><br/>
@@ -126,7 +126,7 @@ May the force be with me or something like that x)
 ### `[ ▸ WEBSITE FOR A SOPRANO ]`
 
 <a href="https://elodie-tisserand-soprano.fr/">
-  <img src="https://img.shields.io/badge/◈_VISIT_LIVE_SITE-elodie--tisserand--soprano.fr-00E5FF?style=for-the-badge&logo=netlify&logoColor=00E5FF&labelColor=0D1117&color=0D1117" alt="Live site" />
+  <img src="https://img.shields.io/badge/◈_VISIT_LIVE_SITE-elodie--tisserand--soprano.fr-00E5FF?style=for-the-badge&logo=icloud&logoColor=00E5FF&labelColor=0D1117&color=0D1117" alt="Live site" />
 </a>
 
 <br/><br/>
@@ -136,13 +136,15 @@ May the force be with me or something like that x)
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0D1117"/>
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white"/>
+<img src="https://img.shields.io/badge/OVH-123F6D?style=flat-square&logo=ovh&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white"/>
 
 </div>
 
 ```text
 TYPE    :: Client Portfolio Website  ·  DELIVERED
-STACK   :: HTML · CSS · Vanilla JS · Netlify
+STACK   :: HTML · CSS · Vanilla JS
+HOST    :: OVH · Apache · Custom domain (HTTPS)
 EXTRAS  :: Bilingual FR/EN · JSON-driven content · Zero framework, zero build step
 ```
 
@@ -213,13 +215,14 @@ Dungeon crawler from a single script to a full REST API — auth, persistence, a
 <div align="center">
 
 <table><tr>
-<td><img src="https://github-readme-stats-sigma-five.vercel.app/api?username=McPe4ce&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" /></td>
-<td><img src="https://streak-stats.demolab.com?user=McPe4ce&theme=tokyonight&hide_border=true" alt="GitHub streak" /></td>
+<td><a href="https://github.com/McPe4ce"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=McPe4ce&theme=github_dark" alt="GitHub profile summary" /></a></td>
+<td><a href="https://github.com/McPe4ce"><img src="https://streak-stats.demolab.com?user=McPe4ce&theme=tokyonight&hide_border=true" alt="GitHub streak" /></a></td>
 </tr></table>
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=McPe4ce&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<a href="https://github.com/McPe4ce?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=McPe4ce&theme=github_dark" alt="Top languages by commit" /></a>
+<a href="https://github.com/McPe4ce?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=McPe4ce&theme=github_dark" alt="Repos per language" /></a>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=McPe4ce&bg_color=0D1117&color=FCEE0A&line=00E5FF&point=FF003C&area=true&hide_border=true" alt="Contribution graph" />
+<a href="https://github.com/McPe4ce"><img src="https://github-readme-activity-graph.vercel.app/graph?username=McPe4ce&bg_color=0D1117&color=FCEE0A&line=00E5FF&point=FF003C&area=true&hide_border=true" alt="Contribution graph" /></a>
 
 </div>
 

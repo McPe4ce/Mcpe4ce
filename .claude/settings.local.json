@@ -11,7 +11,23 @@
       "Bash(gh secret *)",
       "Bash(gh auth *)",
       "WebSearch",
-      "WebFetch(domain:docs.github.com)"
+      "WebFetch(domain:docs.github.com)",
+      "Bash(curl -sSI --max-time 20 https://elodie-tisserand-soprano.fr/)",
+      "Bash(curl -sS --max-time 25 \"https://github-readme-stats-sigma-five.vercel.app/api?username=McPe4ce&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github\")",
+      "Bash(curl -sS --max-time 25 \"https://streak-stats.demolab.com?user=McPe4ce&theme=tokyonight&hide_border=true\")",
+      "Bash(curl -sS --max-time 25 \"https://github-readme-activity-graph.vercel.app/graph?username=McPe4ce&bg_color=0D1117&color=FCEE0A&line=00E5FF&point=FF003C&area=true&hide_border=true\")",
+      "Bash(curl -sS -o /dev/null -w \"%{http_code}\\\\n\" --max-time 25 \"https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMcPe4ce%2FMcPe4ce%2Fmain%2F.github%2Fbadges%2Fvisitors.json\")",
+      "Bash(curl -sS --max-time 20 \"https://raw.githubusercontent.com/McPe4ce/McPe4ce/main/.github/badges/visitors.json\")",
+      "Bash(getent hosts *)",
+      "Bash(curl -sS --max-time 20 https://elodie-tisserand-soprano.fr/)",
+      "Bash(curl -sS --max-time 25 \"https://github-readme-stats.vercel.app/api?username=McPe4ce&show_icons=true&theme=tokyonight\")",
+      "Bash(curl -sSL -o /dev/null -w \"final:%{url_effective} code:%{http_code} type:%{content_type}\\\\n\" --max-time 25 \"https://github-readme-stats.vercel.app/api?username=McPe4ce&show_icons=true&theme=tokyonight\")",
+      "Bash(curl -sS --max-time 25 \"https://github-profile-trophy.vercel.app/?username=McPe4ce&theme=darkhub&no-frame=true\")",
+      "Bash(curl -sS --max-time 25 \"https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=McPe4ce&theme=github_dark\")",
+      "Bash(grep -oE \">[A-Za-z0-9 ._-]{2,30}<\")",
+      "Bash(grep -viE \"^\\\\s*$\")",
+      "Bash(curl -sS --max-time 25 \"https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=McPe4ce&theme=github_dark\")",
+      "Bash(grep -oE \">[A-Za-z0-9 ._%-]{2,30}<\")"
     ]
   }
 }
