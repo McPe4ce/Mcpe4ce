@@ -74,7 +74,7 @@ May the force be with me or something like that x)
 
 ### `[ FRAMEWORKS & AI ]`
 
-<a href="#"><img src="https://skillicons.dev/icons?i=flask,sqlite&theme=dark&perline=8" alt="Frameworks" /></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=flask,django,sqlite&theme=dark&perline=8" alt="Frameworks" /></a>
 
 <p>
   <img src="https://img.shields.io/badge/Google_ADK-AI%20AGENTS-00E5FF?style=for-the-badge&logo=google&logoColor=00E5FF&labelColor=0D1117" />

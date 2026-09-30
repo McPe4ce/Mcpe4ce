@@ -61,7 +61,7 @@ jobs:
 
           badge = {
               'schemaVersion': 1,
-              'label': 'CONNECTIONS LOGGED',
+              'label': 'UNIQUE NETRUNNERS',
               'message': str(total),
               'color': '0D1117',
               'labelColor': 'FCEE0A',
